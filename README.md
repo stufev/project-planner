@@ -1,4 +1,4 @@
-# project-planner
+# Project-Planner
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -16,6 +16,18 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+## Start JSON-Server
+
+```sh
+json-server --watch data/db.json
+```
+
+or
+
+```sh
+npx json-server --watch data/db.json
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
@@ -27,3 +39,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+npx json-server --watch data/db.json
